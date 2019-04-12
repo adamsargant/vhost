@@ -9,7 +9,7 @@ fi
 current_directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 hosts_path="/etc/hosts"
 vhosts_path="/etc/apache2/sites-available/"
-vhost_skeleton_path="path to your vhosts.skeleton.conf"
+vhost_skeleton_path="/usr/local/bin/vhost/vhosts.skeleton.conf"
 apache_root="/var/www/html/"
 physical_root="path to directory where your host directories are located"
 domain=".dev.local"
